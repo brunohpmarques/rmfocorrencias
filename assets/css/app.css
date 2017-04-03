@@ -1,0 +1,28 @@
+body{
+	background-color: #ffffff;
+}
+
+.wrapper{
+	margin-top: 5%;
+}
+
+.img-ocorrencia{
+	margin: 0 auto;
+	width: 200px;
+ 	height: 200px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
+.resp{
+	width: 100%;
+}
+
+.label{
+	font-size: 12px;
+}
+
+.panel-desc{
+	font-size: 12px;
+}
