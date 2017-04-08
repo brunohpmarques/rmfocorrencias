@@ -32,16 +32,16 @@ body{
 	font-size: 14px;
 }
 
-.panel{
-	cursor: pointer;
-}
-
 .panel-warning:hover{
 	background-color: #FEF4E7;
 }
 
 .panel-info:hover{
 	background-color: #E7F1FE;
+}
+
+.panel-primary:hover{
+	background-color: #F7F9F9;
 }
 
 .panel-success:hover{
@@ -52,10 +52,15 @@ body{
 	background-color: #FEE7E7;
 }
 
-.panel-resp{
+.panel-resp, .panel-trep{
 	float: left;
 	margin: 15px -30px -15px -30px;
 	background-color: #ecf0f1;
+}
+
+.panel-trep{
+	padding-left: 40px;
+	background-color: #F7F9F9;
 }
 
 .panel-resp-desc{
@@ -67,12 +72,32 @@ body{
 	padding: 0px;
 }
 
+.showOcr{
+	cursor: pointer;
+}
+
 #modal-img, .modal-dialog{
 	max-width: 100%;
 	max-height: 100%;
 }
 
-.modal-backdrop.in {
+.modal-backdrop.in{
     opacity: 0.8;
     filter: alpha(opacity=50);
+}
+
+.modal-body select, .modal-body input, .modal-body .help-block, .modal-body .glyphicon-time{
+	margin-bottom: 15px;
+}
+
+.modal-body .rating-symbol{
+	font-size: 35px !important;
+}
+
+.rating-symbol-background{
+	color: #cccccc;
+}
+
+.rating-symbol-foreground{
+	color: #ffca00;
 }

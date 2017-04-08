@@ -24,10 +24,21 @@ if(isset($_GET['pg'])){
 	      </ul>
 
 	      <div class="navbar-form navbar-left">
-	        <a href="new.php" class="btn btn-default"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> nova</a>
+	        <a href="javascript:;" class="btn btn-default showNov" data-toggle="modal" data-target="#novModal"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> nova</a>
 	      </div>
 
-	      <ul class="nav navbar-nav navbar-left">
+	      <ul class="nav navbar-nav navbar-right">	       	
+	       	<li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+	          	<span class="glyphicon glyphicon-user" aria-hidden="true"></span> Nome Sobrenome
+	          	<span class="caret"></span>
+	          </a>
+	          <ul class="dropdown-menu" role="menu">
+	            <li><a href="javascript:;">Síndico</a></li>
+	            <li><a href="javascript:;">contato@email.com.br</a></li>
+	          </ul>
+	        </li>
+
 	        <li><a href="login.php"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> sair</a></li>
 	      </ul>
 	    </div>

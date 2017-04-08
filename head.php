@@ -4,7 +4,10 @@
 
 <link href="assets/css/bootstrap-flatly.css" rel="stylesheet">
 <link href="assets/css/app.css" rel="stylesheet">
+<link href="assets/css/showup.css" rel="stylesheet">
 
 <script src="assets/js/jquery-3.2.0.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/app.js"></script>
+<script src="assets/js/showup.js"></script>
+<script src="assets/js/bootstrap-rating.min.js"></script>
