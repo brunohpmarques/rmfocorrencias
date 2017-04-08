@@ -6,6 +6,7 @@ var ratingModal = null;
 var rating = null;
 
 $(document).ready(function(){
+	$('.loadmore .spin').hide();
 	ocrModal = $('#ocrModal');
 	respModal = $('#respModal');
 	novModal = $('#novModal');
@@ -16,6 +17,11 @@ $(document).ready(function(){
 	$().showUp('.navbar', {
 		upClass: 'navbar-show',
 		downClass: 'navbar-hide'
+	});
+
+	$('.loadmore a').on('click', function(){
+		$($(this).parent().find('.spin')[0]).show();
+		$(this).hide();
 	});
 
 	/* MODALS */

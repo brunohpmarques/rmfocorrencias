@@ -153,6 +153,24 @@
 					  				</div>
 					  			</div>
 					  		</div>
+					  		<div class="panel panel-default panel-resp">
+					  			<div class="panel-body">
+					  				<div class="col-md-6 panel-resp-info">
+									  	<span class="glyphicon glyphicon-user" aria-hidden="true"></span> Nome Completo do Síndico
+					  				</div>
+					  				<div class="col-md-3 panel-resp-info">
+					  					<span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> 02/04/2017
+					  				</div>
+					  				<div class="col-md-3 panel-resp-info">
+					  					<span class="glyphicon glyphicon-time" aria-hidden="true"></span> 21:15:17
+					  				</div>
+					  				<div class="col-md-12 panel-resp-desc">
+					  					Descrição da resposta descrição da resposta descrição da resposta descrição da resposta descrição da resposta descrição da resposta
+					  				</div>
+					  				<div class="col-lg-12 panel-resp-info"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> <strong>Alterou para: resolvido</strong>
+					  				</div>
+					  			</div>
+					  		</div>
 					  	</div>
 					  </div>
 					</div>
@@ -192,6 +210,26 @@
 					  				</div>
 					  				<div class="col-md-12 panel-resp-desc">
 					  					Descrição da resposta descrição da resposta descrição da resposta descrição da resposta descrição da resposta descrição da resposta
+					  				</div>
+					  				<div class="col-lg-12 panel-resp-info"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> <strong>Prazo: 07/04/2017</strong>
+					  				</div>
+					  			</div>
+					  		</div>
+					  		<div class="panel panel-default panel-resp">
+					  			<div class="panel-body">
+					  				<div class="col-md-6 panel-resp-info">
+									  	<span class="glyphicon glyphicon-user" aria-hidden="true"></span> Nome Completo do Síndico
+					  				</div>
+					  				<div class="col-md-3 panel-resp-info">
+					  					<span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> 02/04/2017
+					  				</div>
+					  				<div class="col-md-3 panel-resp-info">
+					  					<span class="glyphicon glyphicon-time" aria-hidden="true"></span> 21:15:17
+					  				</div>
+					  				<div class="col-md-12 panel-resp-desc">
+					  					Descrição da resposta descrição da resposta descrição da resposta descrição da resposta descrição da resposta descrição da resposta
+					  				</div>
+					  				<div class="col-lg-12 panel-resp-info"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> <strong>Alterou para: resolvido</strong>
 					  				</div>
 					  			</div>
 					  		</div>
@@ -255,11 +293,20 @@
 					  				<div class="col-md-12 panel-resp-desc">
 					  					Descrição da resposta descrição da resposta descrição da resposta descrição da resposta descrição da resposta descrição da resposta
 					  				</div>
+					  				<div class="col-lg-12 panel-resp-info"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> <strong>Alterou para: não resolvido</strong>
+					  				</div>
 					  			</div>
 					  		</div>
 					  	</div>
 					  </div>
 					</div>										
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 loadmore">
+					<a href="javascript:;" class="btn btn-sm btn-default btn-more">carregar mais</a>
+					<div class="spin btn-more"><span class="glyphicon glyphicon-refresh glyphicon-spin"></span></div>
 				</div>
 			</div>
 
