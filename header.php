@@ -21,6 +21,7 @@ if(isset($_GET['pg'])){
 	      <ul class="nav navbar-nav">
 	        <li <? if(isset($pg) && $pg==0){ ?>class="active"<? } ?>><a href="index.php?ocr=all"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span> Todas</a></li>
 	        <li <? if(isset($pg) && $pg==1){ ?>class="active"<? } ?>><a href="index.php?ocr=my"><span class="glyphicon glyphicon-list" aria-hidden="true"></span> Minhas</a></li>
+	        <li <? if(isset($pg) && $pg==2){ ?>class="active"<? } ?>><a href="index.php?ocr=my&stt=2"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> Avaliar <span class="label label-danger">99</span></a></li>
 	      </ul>
 
 	      <div class="navbar-form navbar-left">
@@ -30,11 +31,12 @@ if(isset($_GET['pg'])){
 	      <ul class="nav navbar-nav navbar-right">	       	
 	       	<li class="dropdown">
 	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-	          	<span class="glyphicon glyphicon-user" aria-hidden="true"></span> Nome Sobrenome
+	          	<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
 	          	<span class="caret"></span>
 	          </a>
 	          <ul class="dropdown-menu" role="menu">
 	            <li><a href="javascript:;">Síndico</a></li>
+	            <li><a href="javascript:;">Nome Sobrenome</a></li>
 	            <li><a href="javascript:;">contato@email.com.br</a></li>
 	          </ul>
 	        </li>
